@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- .277 Fury-->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>JAAP_277FuryAmmo</defName>
+        <ammoType>Industrial</ammoType>
+        <label>.277 Fury</label>
+        <autoAssignable>false</autoAssignable>
+        <ammoDefs>
+            <li>JAAP_277FuryFMJ</li>
+        </ammoDefs>
+        <includeWeaponDefs>
+        </includeWeaponDefs>
+        <excludeWeaponDefs>
+        </excludeWeaponDefs>
+    </Ammunition.Defs.AmmoCategoryDef>
+
+    <!-- .338 Norma Magnum -->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>JAAP_338NormaMag</defName>
+        <ammoType>Industrial</ammoType>
+        <label>.338 Norma Magnum</label>
+        <autoAssignable>false</autoAssignable>
+        <ammoDefs>
+            <li>JAAP_338NormaMag</li>
+        </ammoDefs>
+        <includeWeaponDefs>
+        </includeWeaponDefs>
+        <excludeWeaponDefs>
+        </excludeWeaponDefs>
+    </Ammunition.Defs.AmmoCategoryDef>
+    <!-- 20x42mm  -->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>JAAP_20x42mmAmmo</defName>
+        <ammoType>Industrial</ammoType>
+        <label>20x42mm</label>
+        <autoAssignable>false</autoAssignable>
+        <ammoDefs>
+            <li>JAAP_20x42mmHEI</li>
+            <li>JAAP_20x42mmSAPHEI</li>
+        </ammoDefs>
+        <includeWeaponDefs>
+        </includeWeaponDefs>
+        <excludeWeaponDefs>
+        </excludeWeaponDefs>
+        <ammoWeight>2</ammoWeight>
+    </Ammunition.Defs.AmmoCategoryDef>
+
+    <!-- 5.45x39mm  -->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>JAAP_545x39mmAmmo</defName>
+        <ammoType>Industrial</ammoType>
+        <label>5.45x39mm</label>
+        <autoAssignable>false</autoAssignable>
+        <ammoDefs>
+            <li>JAAP_545x39mmFMJ</li>
+        </ammoDefs>
+        <includeWeaponDefs>
+        </includeWeaponDefs>
+        <excludeWeaponDefs>
+        </excludeWeaponDefs>
+    </Ammunition.Defs.AmmoCategoryDef>
+
+    <!-- FN 5.7x28mm  -->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>JAAP_FN57x28mmAmmo</defName>
+        <ammoType>Industrial</ammoType>
+        <label>FN 5.7×28mm</label>
+        <autoAssignable>false</autoAssignable>
+        <ammoDefs>
+            <li>JAAP_FN57x28mm</li>
+        </ammoDefs>
+        <includeWeaponDefs>
+        </includeWeaponDefs>
+        <excludeWeaponDefs>
+        </excludeWeaponDefs>
+    </Ammunition.Defs.AmmoCategoryDef>
+
+    <!-- .308 Winchester -->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>JAAP_308WinchesterAmmo</defName>
+        <ammoType>Industrial</ammoType>
+        <label>.308 Winchester</label>
+        <autoAssignable>false</autoAssignable>
+        <ammoDefs>
+            <li>JAAP_308Winchester</li>
+        </ammoDefs>
+        <includeWeaponDefs>
+        </includeWeaponDefs>
+        <excludeWeaponDefs>
+        </excludeWeaponDefs>
+        <ammoWeight>1</ammoWeight>
+    </Ammunition.Defs.AmmoCategoryDef>
+
+    <!-- 10mm Caseless -->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>JAAP_10mmCaselessAmmo</defName>
+        <ammoType>Industrial</ammoType>
+        <label>10mm Caseless</label>
+        <autoAssignable>false</autoAssignable>
+        <ammoDefs>
+            <li>JAAP_10mmCaseless</li>
+        </ammoDefs>
+        <includeWeaponDefs>
+        </includeWeaponDefs>
+        <excludeWeaponDefs>
+        </excludeWeaponDefs>
+    </Ammunition.Defs.AmmoCategoryDef>
+
+</Defs>
+
+
+<!--
+Gun_EmpLauncher
+Gun_SmokeLauncher
+Gun_IncendiaryLauncher
+-->

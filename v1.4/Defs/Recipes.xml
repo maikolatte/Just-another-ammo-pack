@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!--JAAP_227FuryFMJ -->
+    <RecipeDef Name="JAAP_277FuryBase_Recipe" Abstract="True">
+        <description>Make bullets that go pew.</description>
+        <jobString>Making bullets.</jobString>
+        <workAmount>1200</workAmount>
+        <workSkill>Crafting</workSkill>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>LTS_AmmunitionBench</li>
+        </recipeUsers>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                        <li MayRequire="Argon.VMEu">VMEu_Lead</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li MayRequire="Argon.VMEu">VMEu_Lead</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+    <RecipeDef ParentName="JAAP_277FuryBase_Recipe">
+        <defName>Make_AmmoJAAP_277FuryFMJ</defName>
+        <label>make .277Fury FMJ ammo</label>
+        <products>
+            <JAAP_277FuryFMJ>100</JAAP_277FuryFMJ>
+        </products>
+    </RecipeDef>
+
+    <!--JAAP .338 Norma Magnum -->
+    <RecipeDef Name="JAAP_338NormaMagBase_Recipe" Abstract="True">
+        <description>Make bullets that go pew.</description>
+        <jobString>Making bullets.</jobString>
+        <workAmount>1200</workAmount>
+        <workSkill>Crafting</workSkill>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>LTS_AmmunitionBench</li>
+        </recipeUsers>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>65</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Uranium</li>
+                    </thingDefs>
+                </filter>
+                <count>15</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Uranium</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+    <RecipeDef ParentName="JAAP_338NormaMagBase_Recipe">
+        <defName>Make_AmmoJAAP_338NormaMag</defName>
+        <label>make .338 Norma Magnum ammo</label>
+        <products>
+            <JAAP_338NormaMag>80</JAAP_338NormaMag>
+        </products>
+    </RecipeDef>
+
+    <!-- 20x42mm HEI -->
+    <RecipeDef Name="JAAP_20x42mmHEI_Recipe" Abstract="True">
+        <description>Make bullets that go pew.</description>
+        <jobString>Making bullets.</jobString>
+        <workAmount>1200</workAmount>
+        <workSkill>Crafting</workSkill>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>LTS_AmmunitionBench</li>
+        </recipeUsers>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>80</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Chemfuel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+    <RecipeDef ParentName="JAAP_20x42mmHEI_Recipe">
+        <defName>Make_AmmoJAAP_20x42mmHEI</defName>
+        <label>make 20x42mm HEI ammo</label>
+        <products>
+            <JAAP_20x42mmHEI>50</JAAP_20x42mmHEI>
+        </products>
+    </RecipeDef>
+    <!-- 20x42mm SAPHEI -->
+    <RecipeDef Name="JAAP_20x42mmSAPHEI_Recipe" Abstract="True">
+        <description>Make bullets that go pew.</description>
+        <jobString>Making bullets.</jobString>
+        <workAmount>1200</workAmount>
+        <workSkill>Crafting</workSkill>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>LTS_AmmunitionBench</li>
+        </recipeUsers>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>60</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Uranium</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Uranium</li>
+                <li>Chemfuel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+    <RecipeDef ParentName="JAAP_20x42mmSAPHEI_Recipe">
+        <defName>Make_AmmoJAAP_20x42mmSAPHEI</defName>
+        <label>make 20x42mm SAPHEI ammo</label>
+        <products>
+            <JAAP_20x42mmSAPHEI>50</JAAP_20x42mmSAPHEI>
+        </products>
+    </RecipeDef>
+
+    <!-- 5.45x39mm FMJ -->
+    <RecipeDef Name="JAAP_545x39mmFMJ_Recipe" Abstract="True">
+        <description>Make bullets that go pew.</description>
+        <jobString>Making bullets.</jobString>
+        <workAmount>1200</workAmount>
+        <workSkill>Crafting</workSkill>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>LTS_AmmunitionBench</li>
+        </recipeUsers>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>40</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Chemfuel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+    <RecipeDef ParentName="JAAP_545x39mmFMJ_Recipe">
+        <defName>Make_AmmoJAAP_545x39mmFMJ</defName>
+        <label>make 5.45x39mm FMJ ammo</label>
+        <products>
+            <JAAP_545x39mmFMJ>100</JAAP_545x39mmFMJ>
+        </products>
+    </RecipeDef>
+
+    <!-- FN 5.7x28mm  -->
+    <RecipeDef Name="JAAP_FN57x28mm_Recipe" Abstract="True">
+        <description>Make bullets that go pew.</description>
+        <jobString>Making bullets.</jobString>
+        <workAmount>1200</workAmount>
+        <workSkill>Crafting</workSkill>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>LTS_AmmunitionBench</li>
+        </recipeUsers>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Chemfuel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+    <RecipeDef ParentName="JAAP_FN57x28mm_Recipe">
+        <defName>Make_AmmoJAAP_FN57x28mm</defName>
+        <label>make FN 5.7x28mm</label>
+        <products>
+            <JAAP_FN57x28mm>100</JAAP_FN57x28mm>
+        </products>
+    </RecipeDef>
+
+    <!-- .308 Winchester -->
+    <RecipeDef Name="JAAP_308Winchester_Recipe" Abstract="True">
+        <description>Make bullets that go pew.</description>
+        <jobString>Making bullets.</jobString>
+        <workAmount>1200</workAmount>
+        <workSkill>Crafting</workSkill>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>LTS_AmmunitionBench</li>
+        </recipeUsers>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>60</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Chemfuel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+    <RecipeDef ParentName="JAAP_308Winchester_Recipe">
+        <defName>Make_Ammo308Winchester</defName>
+        <label>make .308 Winchester</label>
+        <products>
+            <JAAP_308Winchester>100</JAAP_308Winchester>
+        </products>
+    </RecipeDef>
+
+    <!-- 10mm Caseless -->
+    <RecipeDef Name="JAAP_10mmCaseless" Abstract="True">
+        <description>Make 10 millimeter explosive-tip caseless. Standard light armor-piercing round.</description>
+        <jobString>Making bullets.</jobString>
+        <workAmount>1200</workAmount>
+        <workSkill>Crafting</workSkill>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>LTS_AmmunitionBench</li>
+        </recipeUsers>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Chemfuel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+    <RecipeDef ParentName="JAAP_10mmCaseless">
+        <defName>Make_Ammo10mmCaseless</defName>
+        <label>make 10mm Caseless</label>
+        <products>
+            <JAAP_10mmCaseless>50</JAAP_10mmCaseless>
+        </products>
+    </RecipeDef>
+
+</Defs>

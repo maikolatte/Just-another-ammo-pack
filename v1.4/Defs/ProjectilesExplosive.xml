@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>   
+    <!-- 40x46mm HE round -->
+    <ThingDef ParentName="BaseBullet">
+        <defName>JAAP_40mmHEProjectile</defName>
+        <label>40mm M406 (HE)High explosive round</label>
+        <graphicData>
+            <texPath>Projectiles/40mmHEprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+            <drawSize>2</drawSize>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+            <damageDef>Bomb</damageDef>
+            <!-- Use default damage from explosion def -->
+            <explosionRadius>2.1</explosionRadius>
+            <speed>75</speed>
+            <soundExplode>MortarBomb_Explode</soundExplode>
+        </projectile>
+    </ThingDef>
+    <!-- 40mm GLV Smoke W round -->
+    <ThingDef ParentName="BaseBullet">
+        <defName>JAAP_40mmGLVSMKProjectile</defName>
+        <label>40mm GLV-SMK-W (Grenade Low velocity Smoke) round</label>
+        <graphicData>
+            <texPath>Projectiles/40mmGLVSMKprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+            <drawSize>2</drawSize>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+            <damageDef>Smoke</damageDef>
+            <!-- Use default damage from explosion def -->
+            <explosionRadius>3.5</explosionRadius>
+            <speed>75</speed>
+            <soundExplode>Explosion_Smoke</soundExplode>
+            <postExplosionGasType>BlindSmoke</postExplosionGasType>
+        </projectile>
+    </ThingDef>
+    <!-- 40mm Door Breacher round -->
+    <ThingDef ParentName="BaseBullet">
+        <defName>JAAP_40mmDoorBreachprojectile</defName>
+        <label>40mm Door Breacher round</label>
+        <graphicData>
+            <texPath>Projectiles/40mmDoorBreachprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+            <drawSize>2</drawSize>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+            <damageDef>Thump</damageDef>
+            <damageAmountBase>5</damageAmountBase>
+            <stoppingPower>2</stoppingPower>
+            <explosionRadius>2.1</explosionRadius>
+            <speed>75</speed>
+            <soundExplode>ThumpCannon_Impact</soundExplode>
+        </projectile>
+    </ThingDef>
+    <!-- 40mm EMP Round -->
+    <ThingDef ParentName="BaseBullet">
+        <defName>JAAP_40mmEMPProjectile</defName>
+        <label>40mm EMP Round</label>
+        <graphicData>
+            <texPath>Projectiles/40mmEMPprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+            <drawSize>2</drawSize>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+            <damageDef>EMP</damageDef>
+            <!-- Use default damage from explosion def -->
+            <explosionRadius>4.9</explosionRadius>
+            <speed>75</speed>
+            <soundExplode>Explosion_EMP</soundExplode>
+        </projectile>
+    </ThingDef>
+</Defs>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>    
+    <!--40mm Rounds -->
+    <ThingDef ParentName="AmmunitionBase" Name="JAAP_Ammo40mmBase" Abstract="True">
+        <soundInteract>Interact_Rifle</soundInteract>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>AmmoExplosive</li>
+        </tradeTags>
+        <statBases>
+            <MarketValue>1.25</MarketValue>
+            <Mass>0.02</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <explosiveRadius>2.9</explosiveRadius>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+                <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+                <wickTicks>
+                    <min>30</min>
+                    <max>60</max>
+                </wickTicks>
+            </li>
+        </comps>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <effectWorking>Cook</effectWorking>
+            <soundWorking>Recipe_Machining</soundWorking>
+            <workAmount>700</workAmount>
+            <targetCountAdjustment>5</targetCountAdjustment>
+            <workSkill>Crafting</workSkill>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <displayPriority>98</displayPriority>
+            <researchPrerequisite>Mortars</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 40x46mm HE round -->
+    <ThingDef ParentName="JAAP_Ammo40mmBase">
+        <defName>JAAP_40mmHE</defName>
+        <label>40x46mm M406 HE</label>
+        <description>40mm M406 (HE)High explosive round. This cartridge is a high explosive round designed to inflict personnel casualties using ground burst effect, and is fired from 40mm Grenade Launchers M79 or M203 (attached to the M16 series rifle).
+
+            Damage Type: Bomb
+            Explosion Radius: 2.1</description>
+        <graphicData>
+            <texPath>Ammo/Ammo40mmHE_M406</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <uiIconPath>Ammo/Ammo40mmHE_M406/40mm_HE_M406_a</uiIconPath>
+        <costList>
+            <Steel>10</Steel>
+            <Chemfuel>10</Chemfuel>
+        </costList>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension">
+                <bulletDef>JAAP_40mmHEProjectile</bulletDef>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- 40mm GLV Smoke W round -->
+    <ThingDef ParentName="JAAP_Ammo40mmBase">
+        <defName>JAAP_40mmGLVSMK</defName>
+        <label>40x46mm GLV-SMK-W</label>
+        <description>40x46mm GLV-SMK-W (Grenade Low velocity Smoke) is a smoke round that launches a single projectile round emitting smoke
+
+            Damage Type: Smoke
+            Explosion Radius: 3.5</description>
+        <graphicData>
+            <texPath>Ammo/Ammo40mmGLVSMK</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <uiIconPath>Ammo/Ammo40mmGLVSMK/40mm_GLVSMK_a</uiIconPath>
+        <costList>
+            <Steel>15</Steel>
+        </costList>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension">
+                <bulletDef>JAAP_40mmGLVSMKProjectile</bulletDef>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- 40mm Door Breacher round -->
+    <ThingDef ParentName="JAAP_Ammo40mmBase">
+        <defName>JAAP_40mmDoorBreach</defName>
+        <label>40x46mm Door Breacher</label>
+        <description>This innovative, low-velocity cartridge can be fired from single- or multi-launch 40 mm grenade launchers. It has proven breaching capabilities against both inward and outward opening doors, and no fragmentation is sent back at the shooter, minimizing casualties on both sides of the door.
+
+            Damage Type: Thump
+            Stopping Power: 2
+            Damage Base: 5
+            Explosion Radius: 2.1</description>
+        <graphicData>
+            <texPath>Ammo/Ammo40mmDoorBreach</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <costList>
+            <Steel>20</Steel>
+        </costList>
+        <uiIconPath>Ammo/Ammo40mmDoorBreach/40mm_DoorBreach_a</uiIconPath>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension">
+                <bulletDef>JAAP_40mmDoorBreachprojectile</bulletDef>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- 40mm EMP round -->
+    <ThingDef ParentName="LTS_AmmoRCLBase">
+        <defName>JAAP_40mmEMP</defName>
+        <label>40x46mm EMP</label>
+        <description>A 40mm grenade with an EMP charge. It will release an electromagnetic pulse capable of stunning mechanoids and turrets or unlucky pawn with sensitive electric bionic or gear.
+
+            Damage Type: EMP
+            Explosion Radius: 4.9</description>
+        <graphicData>
+            <texPath>Ammo/Ammo40mm_EMP</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <uiIconPath>Ammo/Ammo40mm_EMP/40mm_EMP_a</uiIconPath>
+        <costList>
+            <Steel>10</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension">
+                <bulletDef>JAAP_40mmEMPProjectile</bulletDef>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>

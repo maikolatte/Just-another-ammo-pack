@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="BaseBullet" Name="LTSBulletWithComp" Abstract="True">
+        <comps>
+            <li Class="LTS_Systems.Components.CompPropertiesEffectToggle">
+                <effectDef>LTSPuff</effectDef>
+            </li>
+        </comps>
+    </ThingDef>
+    
+    <!-- 277 Fury -->
+    <ThingDef ParentName="LTSBulletWithComp">
+        <defName>JAAP_277FuryProjectile</defName>
+        <label>.277 Fury FMJ</label>
+        <graphicData>
+            <texPath>Projectiles/277FuryFMJprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>18</damageAmountBase>
+            <armorPenetrationBase>0.18</armorPenetrationBase>
+            <stoppingPower>1</stoppingPower>
+            <speed>90</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- 338 Norma Magnum -->
+    <ThingDef ParentName="LTSBulletWithComp">
+        <defName>JAAP_338NormaMagprojectile</defName>
+        <label>.338 Norma Magnum </label>
+        <graphicData>
+            <texPath>Projectiles/277FuryFMJprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>21</damageAmountBase>
+            <armorPenetrationBase>0.25</armorPenetrationBase>
+            <stoppingPower>2</stoppingPower>
+            <speed>75</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- 20x42mm HEI -->
+    <ThingDef ParentName="LTSBulletWithComp">
+        <defName>JAAP_20x42mmHEIprojectile</defName>
+        <label>20x42mm HEI</label>
+        <graphicData>
+            <texPath>Projectiles/20x42mmHEIprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+            <damageDef>Bomb</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <explosionRadius>2</explosionRadius>
+            <soundExplode>MortarBomb_Explode</soundExplode>
+            <stoppingPower>2</stoppingPower>
+            <speed>75</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- 20x42mm SAPHEI -->
+    <ThingDef ParentName="LTSBulletWithComp">
+        <defName>JAAP_20x42mmSAPHEIprojectile</defName>
+        <label>20x42mm SAPHEI</label>
+        <graphicData>
+            <texPath>Projectiles/20x42mmSAPHEIprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+            <damageDef>Bomb</damageDef>
+            <damageAmountBase>28</damageAmountBase>
+            <explosionRadius>1</explosionRadius>
+            <soundExplode>MortarBomb_Explode</soundExplode>
+            <armorPenetrationBase>0.48</armorPenetrationBase>
+            <stoppingPower>2</stoppingPower>
+            <speed>75</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- 5.45x39mm -->
+    <ThingDef ParentName="LTSBulletWithComp">
+        <defName>JAAP_545x39mmprojectile</defName>
+        <label>5.45x39mm</label>
+        <graphicData>
+            <texPath>Projectiles/5.45x39mmprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>14</damageAmountBase>
+            <armorPenetrationBase>0.16</armorPenetrationBase>
+            <speed>75</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- FN 5.7x28mm -->
+    <ThingDef ParentName="LTSBulletWithComp">
+        <defName>JAAP_FN57x28mmprojectile</defName>
+        <label>FN 5.7x28mm</label>
+        <graphicData>
+            <texPath>Projectiles/FN5.7x28mmprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>12</damageAmountBase>
+            <armorPenetrationBase>0.18</armorPenetrationBase>
+            <speed>75</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- .308 Winchester -->
+    <ThingDef ParentName="LTSBulletWithComp">
+        <defName>JAAP_308Winchesterprojectile</defName>
+        <label>FN 5.7x28mm</label>
+        <graphicData>
+            <texPath>Projectiles/308Winchesterprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>28</damageAmountBase>
+            <armorPenetrationBase>0.36</armorPenetrationBase>
+            <stoppingPower>2</stoppingPower>
+            <speed>75</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- 10mm Caseless -->
+    <ThingDef ParentName="LTSBulletWithComp">
+        <defName>JAAP_10mmCaselessprojectile</defName>
+        <label>FN 5.7x28mm</label>
+        <graphicData>
+            <texPath>Projectiles/10mmCaselessprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>24</damageAmountBase>
+            <armorPenetrationBase>0.60</armorPenetrationBase>
+            <stoppingPower>2</stoppingPower>
+            <speed>75</speed>
+        </projectile>
+    </ThingDef>
+
+</Defs>

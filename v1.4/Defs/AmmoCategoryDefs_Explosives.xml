@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>JAAP_40x46mm</defName>
+        <ammoType>Industrial</ammoType>
+        <label>40x46mm Grenade</label>
+        <autoAssignable>false</autoAssignable>
+        <ammoDefs>
+            <li>JAAP_40mmHE</li>
+            <li>JAAP_40mmGLVSMK</li>
+            <li>JAAP_40mmDoorBreach</li>
+            <li>JAAP_40mmEMP</li>
+        </ammoDefs>
+        <weightList>
+            <li>2</li>
+            <li>1</li>
+        </weightList>
+        <includeWeaponDefs>
+        </includeWeaponDefs>
+        <excludeWeaponDefs>
+        </excludeWeaponDefs>
+        <ammoWeight>5</ammoWeight>
+    </Ammunition.Defs.AmmoCategoryDef>
+</Defs>
