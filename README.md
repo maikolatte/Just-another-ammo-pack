@@ -8,7 +8,9 @@ Use with [LTS Advanced ammo mod](https://steamcommunity.com/sharedfiles/filedeta
 (5.56mm, 9mm, 7.62mm ETC)
 
 Require [LTS Ammunition - Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2803605634)
-
+---
+- Code base on Advanced Ammo Mod by LimeTreeSnake
+  Yes I have permission.
 ---
 ![alt text](https://github.com/maikolatte/Just-another-ammo-pack/blob/master/Banner/Changelog.png)
 
