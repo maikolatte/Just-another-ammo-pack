@@ -142,7 +142,7 @@
     <!-- 10mm Caseless -->
     <ThingDef ParentName="LTSBulletWithComp">
         <defName>JAAP_10mmCaselessprojectile</defName>
-        <label>FN 5.7x28mm</label>
+        <label>10mm Caseless</label>
         <graphicData>
             <texPath>Projectiles/10mmCaselessprojectile</texPath>
             <graphicClass>Graphic_Single</graphicClass>
