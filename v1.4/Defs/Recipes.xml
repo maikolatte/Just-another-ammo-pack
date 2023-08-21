@@ -345,7 +345,7 @@
     </RecipeDef>
 
     <!-- 10mm Caseless -->
-    <RecipeDef Name="JAAP_10mmCaseless" Abstract="True">
+    <RecipeDef Name="JAAP_10mmCaseless_Recipe" Abstract="True">
         <description>Make 10 millimeter explosive-tip caseless. Standard light armor-piercing round.</description>
         <jobString>Making bullets.</jobString>
         <workAmount>1200</workAmount>
@@ -385,11 +385,111 @@
             </thingDefs>
         </fixedIngredientFilter>
     </RecipeDef>
-    <RecipeDef ParentName="JAAP_10mmCaseless">
+    <RecipeDef ParentName="JAAP_10mmCaseless_Recipe">
         <defName>Make_Ammo10mmCaseless</defName>
         <label>make 10mm Caseless</label>
         <products>
             <JAAP_10mmCaseless>50</JAAP_10mmCaseless>
+        </products>
+    </RecipeDef>
+
+    <!-- 20x139mm APDS -->
+    <RecipeDef Name="JAAP_20x139mmAPDS_Recipe" Abstract="True">
+        <description>Make 20x139mm Armour-piercing discarding sabot (APDS) is a type of spin-stabilized kinetic energy projectile for anti-armour warfare.</description>
+        <jobString>Making bullets.</jobString>
+        <workAmount>2400</workAmount>
+        <workSkill>Crafting</workSkill>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>LTS_AmmunitionBench</li>
+        </recipeUsers>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>40</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Plasteel</li>
+                <li>Chemfuel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+    <RecipeDef ParentName="JAAP_20x139mmAPDS_Recipe">
+        <defName>Make_20x139mmAPDS</defName>
+        <label>make 20x139mm APDS</label>
+        <products>
+            <JAAP_20x139mmAPDS>100</JAAP_20x139mmAPDS>
+        </products>
+    </RecipeDef>
+
+    <!-- 30x173mm APFSDS -->
+
+    <RecipeDef Name="JAAP_30x173mmAPFSDS_Recipe" Abstract="True">
+        <description>Make 30x173mm Armour piercing fin stabilised discarding sabot (APFSDS) is a type of spin-stabilized kinetic energy projectile for anti-armour warfare.</description>
+
+        <jobString>Making bullets.</jobString>
+        <workAmount>2400</workAmount>
+        <workSkill>Crafting</workSkill>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>LTS_AmmunitionBench</li>
+        </recipeUsers>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>60</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Plasteel</li>
+                <li>Chemfuel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+    <RecipeDef ParentName="JAAP_30x173mmAPFSDS_Recipe">
+        <defName>Make_30x173mmAPFSDS</defName>
+        <label>make 30x173mm APFSDS</label>
+        <products>
+            <JAAP_30x173mmAPFSDS>100</JAAP_30x173mmAPFSDS>
         </products>
     </RecipeDef>
 

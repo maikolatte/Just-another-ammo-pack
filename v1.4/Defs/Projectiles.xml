@@ -157,4 +157,38 @@
         </projectile>
     </ThingDef>
 
+    <!-- 20x139mm APDS -->
+    <ThingDef ParentName="LTSBulletWithComp">
+        <defName>JAAP_20x139mmAPDSprojectile</defName>
+        <label>20x139mm APDS</label>
+        <graphicData>
+            <texPath>Projectiles/20x139mmAPDSprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>25</damageAmountBase>
+            <armorPenetrationBase>0.75</armorPenetrationBase>
+            <stoppingPower>2.5</stoppingPower>
+            <speed>75</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- 30x173mm APFSDS -->
+    <ThingDef ParentName="LTSBulletWithComp">
+        <defName>JAAP_30x173mmAPFSDSprojectile</defName>
+        <label>30x173mm APFSDS</label>
+        <graphicData>
+            <texPath>Projectiles/30x173mmAPFSDSprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>37</damageAmountBase>
+            <armorPenetrationBase>1.25</armorPenetrationBase>
+            <stoppingPower>4</stoppingPower>
+            <speed>75</speed>
+        </projectile>
+    </ThingDef>
+
 </Defs>

@@ -114,7 +114,7 @@
     </ThingDef>
 
     <!-- 40mm EMP round -->
-    <ThingDef ParentName="LTS_AmmoRCLBase">
+    <ThingDef ParentName="JAAP_Ammo40mmBase">
         <defName>JAAP_40mmEMP</defName>
         <label>40x46mm EMP</label>
         <description>A 40mm grenade with an EMP charge. It will release an electromagnetic pulse capable of stunning mechanoids and turrets or unlucky pawn with sensitive electric bionic or gear.
@@ -133,6 +133,70 @@
         <modExtensions>
             <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension">
                 <bulletDef>JAAP_40mmEMPProjectile</bulletDef>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- MELLS Missile-->
+    <ThingDef ParentName="AmmunitionBase" Name="JAAP_MELLSABase" Abstract="True">
+        <soundInteract>Interact_Rifle</soundInteract>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>AmmoExplosive</li>
+        </tradeTags>
+        <statBases>
+            <MarketValue>2.5</MarketValue>
+            <Mass>2.5</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <explosiveRadius>3.9</explosiveRadius>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+                <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+                <wickTicks>
+                    <min>30</min>
+                    <max>60</max>
+                </wickTicks>
+            </li>
+        </comps>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <effectWorking>Cook</effectWorking>
+            <soundWorking>Recipe_Machining</soundWorking>
+            <workAmount>1700</workAmount>
+            <targetCountAdjustment>5</targetCountAdjustment>
+            <workSkill>Crafting</workSkill>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <displayPriority>97</displayPriority>
+            <researchPrerequisite>Mortars</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+    <!-- MELLS -->
+    <ThingDef ParentName="JAAP_MELLSABase">
+        <defName>JAAP_MELLS</defName>
+        <label>MELLS Missle</label>
+        <description>MELLS is a multirole-capable lightweight guided missile system designed for engaging armoured ground targets.
+
+            Damage Type: Bomb
+            Explosion Radius: 2.9</description>
+        <graphicData>
+            <texPath>Ammo/AmmoMELLS</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <uiIconPath>Ammo/AmmoMELLS/MELLS_a</uiIconPath>
+        <costList>
+            <Steel>15</Steel>
+            <Chemfuel>20</Chemfuel>
+        </costList>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension">
+                <bulletDef>JAAP_MELLSProjectile</bulletDef>
             </li>
         </modExtensions>
     </ThingDef>

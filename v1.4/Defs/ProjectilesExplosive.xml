@@ -78,4 +78,24 @@
             <soundExplode>Explosion_EMP</soundExplode>
         </projectile>
     </ThingDef>
+
+    <!-- MELLS -->
+    <ThingDef ParentName="BaseBullet">
+        <defName>JAAP_MELLSProjectile</defName>
+        <label>MELLS Missile</label>
+        <graphicData>
+            <texPath>Projectiles/MELLSprojectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>2</drawSize>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+			<damageDef>BombSuper</damageDef>
+			<damageAmountBase>80</damageAmountBase>
+            <explosionRadius>2.9</explosionRadius>
+            <speed>75</speed>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+        </projectile>
+    </ThingDef>
 </Defs>

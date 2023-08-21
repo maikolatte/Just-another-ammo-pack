@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
+    <!-- 40mm Grenades -->
     <Ammunition.Defs.AmmoCategoryDef>
         <defName>JAAP_40x46mm</defName>
         <ammoType>Industrial</ammoType>
@@ -22,4 +22,24 @@
         </excludeWeaponDefs>
         <ammoWeight>5</ammoWeight>
     </Ammunition.Defs.AmmoCategoryDef>
+
+    <!-- MELLS -->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>JAAP_MELLS</defName>
+        <ammoType>Industrial</ammoType>
+        <label>MELLS</label>
+        <autoAssignable>false</autoAssignable>
+        <ammoDefs>
+            <li>JAAP_MELLS</li>
+        </ammoDefs>
+        <weightList>
+            <li>2</li>
+        </weightList>
+        <includeWeaponDefs>
+        </includeWeaponDefs>
+        <excludeWeaponDefs>
+        </excludeWeaponDefs>
+        <ammoWeight>10</ammoWeight>
+    </Ammunition.Defs.AmmoCategoryDef>
+
 </Defs>

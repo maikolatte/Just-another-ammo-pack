@@ -328,4 +328,97 @@
         </modExtensions>
     </ThingDef>
 
+    <!-- 20x139mm APDS -->
+    <ThingDef ParentName="AmmunitionBase" Name="JAAP_20x139mmAPDSBase" Abstract="True">
+        <soundInteract>Interact_Rifle</soundInteract>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>AmmoIndustrial</li>
+        </tradeTags>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <explosiveRadius>2.0</explosiveRadius>
+                <explosiveDamageType>Burn</explosiveDamageType>
+                <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+                <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+                <wickTicks>
+                    <min>30</min>
+                    <max>60</max>
+                </wickTicks>
+            </li>
+        </comps>
+        <statBases>
+            <MarketValue>4</MarketValue>
+            <Mass>0.2</Mass>
+        </statBases>
+    </ThingDef>
+    <ThingDef ParentName="JAAP_20x139mmAPDSBase">
+        <defName>JAAP_20x139mmAPDS</defName>
+        <label>20x139mm APDS</label>
+        <description>20x139mm Armour-piercing discarding sabot (APDS) is a type of spin-stabilized kinetic energy projectile for anti-armour warfare.
+
+            Damage: 25
+            Armor penetration: 75%
+            StoppingPower: 2.5</description>
+        <graphicData>
+            <texPath>Ammo/Ammo20x139mm_APDS</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <uiIconPath>Ammo/Ammo20x139mm_APDS/20x139mm_APDS_a</uiIconPath>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension">
+                <bulletDef>JAAP_20x139mmAPDSprojectile</bulletDef>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- 30x173mm APFSDS -->
+    <ThingDef ParentName="AmmunitionBase" Name="JAAP_30x173mmAPFSDS" Abstract="True">
+        <soundInteract>Interact_Rifle</soundInteract>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>AmmoIndustrial</li>
+        </tradeTags>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <explosiveRadius>2.0</explosiveRadius>
+                <explosiveDamageType>Burn</explosiveDamageType>
+                <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+                <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+                <wickTicks>
+                    <min>30</min>
+                    <max>60</max>
+                </wickTicks>
+            </li>
+        </comps>
+        <statBases>
+            <MarketValue>4</MarketValue>
+            <Mass>0.8</Mass>
+        </statBases>
+    </ThingDef>
+    <ThingDef ParentName="JAAP_30x173mmAPFSDS">
+        <defName>JAAP_30x173mmAPFSDS</defName>
+        <label>30x173mm APFSDS</label>
+        <description>30mm Caliber APFSDS (Armour piercing fin stabilised discarding sabot).
+        
+The 30mm caliber is a range of autocannon ammunition.
+The 30 x 173mm APFSDS is designed to defeat the armor threats of today and tomorrow, such as infantry fighting vehicles, armored helicopters and other vehicles with heavy protection. The round has an extremely low drag coefficient giving short time of flight, high accuracy and superior penetration capabilities out to more than 4000 Meter. The Plasteel penetrator is designed to provide high energy and maximum penetration capability.
+
+The 30mm round would kill you and turn your insides into Jelly.
+
+            Damage: 37
+            Armor penetration: 125%
+            StoppingPower: 4</description>
+        <graphicData>
+            <texPath>Ammo/Ammo30x173mm_APFSDS</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <uiIconPath>Ammo/Ammo30x173mm_APFSDS/30x173mm_APFSDS_a</uiIconPath>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension">
+                <bulletDef>JAAP_30x173mmAPFSDSprojectile</bulletDef>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
 </Defs>

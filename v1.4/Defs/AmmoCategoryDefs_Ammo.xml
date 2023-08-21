@@ -107,6 +107,38 @@
         </excludeWeaponDefs>
     </Ammunition.Defs.AmmoCategoryDef>
 
+    <!-- 20x139mm APDS -->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>JAAP_20x139mmAPDS</defName>
+        <ammoType>Industrial</ammoType>
+        <label>20x139mm Autocannon</label>
+        <autoAssignable>false</autoAssignable>
+        <ammoDefs>
+            <li>JAAP_20x139mmAPDS</li>
+        </ammoDefs>
+        <includeWeaponDefs>
+        </includeWeaponDefs>
+        <excludeWeaponDefs>
+        </excludeWeaponDefs>
+        <ammoWeight>2</ammoWeight>
+    </Ammunition.Defs.AmmoCategoryDef>
+
+    <!-- 30x173mm APFSDS -->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>JAAP_30x173mmAPFSDS</defName>
+        <ammoType>Industrial</ammoType>
+        <label>30x173mm Autocannon</label>
+        <autoAssignable>false</autoAssignable>
+        <ammoDefs>
+            <li>JAAP_30x173mmAPFSDS</li>
+        </ammoDefs>
+        <includeWeaponDefs>
+        </includeWeaponDefs>
+        <excludeWeaponDefs>
+        </excludeWeaponDefs>
+        <ammoWeight>2</ammoWeight>
+    </Ammunition.Defs.AmmoCategoryDef>
+
 </Defs>
 
 
