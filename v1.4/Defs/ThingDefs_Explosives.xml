@@ -63,6 +63,7 @@
                 <bulletDef>JAAP_40mmHEProjectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_40mmHEProjectile</projectileWhenLoaded>
     </ThingDef>
 
     <!-- 40mm GLV Smoke W round -->
@@ -86,6 +87,7 @@
                 <bulletDef>JAAP_40mmGLVSMKProjectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_40mmGLVSMKProjectile</projectileWhenLoaded>
     </ThingDef>
 
     <!-- 40mm Door Breacher round -->
@@ -111,6 +113,7 @@
                 <bulletDef>JAAP_40mmDoorBreachprojectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_40mmDoorBreachprojectile</projectileWhenLoaded>
     </ThingDef>
 
     <!-- 40mm EMP round -->
@@ -135,6 +138,7 @@
                 <bulletDef>JAAP_40mmEMPProjectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_40mmEMPProjectile</projectileWhenLoaded>
     </ThingDef>
 
     <!-- MELLS Missile-->
@@ -199,6 +203,7 @@
                 <bulletDef>JAAP_MELLSProjectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_MELLSProjectile</projectileWhenLoaded>
     </ThingDef>
 
 </Defs>

@@ -86,6 +86,7 @@
         <graphicData>
             <texPath>Projectiles/MELLSprojectile</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
             <drawSize>2</drawSize>
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>

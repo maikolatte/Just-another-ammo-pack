@@ -164,6 +164,7 @@
         <graphicData>
             <texPath>Projectiles/20x139mmAPDSprojectile</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
@@ -181,6 +182,7 @@
         <graphicData>
             <texPath>Projectiles/30x173mmAPFSDSprojectile</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>

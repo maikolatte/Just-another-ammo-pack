@@ -42,6 +42,7 @@
                 <bulletDef>JAAP_277FuryProjectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_277FuryProjectile</projectileWhenLoaded>
     </ThingDef>
 
     <!-- 338 Norma Magnum -->
@@ -86,6 +87,7 @@
                 <bulletDef>JAAP_338NormaMagprojectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_338NormaMagprojectile</projectileWhenLoaded>
     </ThingDef>
 
     <!-- 20x42mm HEI -->
@@ -130,6 +132,7 @@
                 <bulletDef>JAAP_20x42mmHEIprojectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_20x42mmHEIprojectile</projectileWhenLoaded>
     </ThingDef>
     <ThingDef ParentName="JAAP_20x42mmBase">
         <defName>JAAP_20x42mmSAPHEI</defName>
@@ -150,6 +153,7 @@
                 <bulletDef>JAAP_20x42mmSAPHEIprojectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_20x42mmSAPHEIprojectile</projectileWhenLoaded>
     </ThingDef>
 
     <!-- 5.45x39mm -->
@@ -194,6 +198,7 @@
                 <bulletDef>JAAP_545x39mmprojectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_545x39mmprojectile</projectileWhenLoaded>
     </ThingDef>
 
     <!-- FN 5.7x28mm -->
@@ -237,6 +242,7 @@
                 <bulletDef>JAAP_FN57x28mmprojectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_FN57x28mmprojectile</projectileWhenLoaded>
     </ThingDef>
 
 
@@ -282,6 +288,7 @@
                 <bulletDef>JAAP_308Winchesterprojectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_308Winchesterprojectile</projectileWhenLoaded>
     </ThingDef>
 
     <!-- 10mm Caseless  -->
@@ -326,6 +333,7 @@
                 <bulletDef>JAAP_10mmCaselessprojectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_10mmCaselessprojectile</projectileWhenLoaded>
     </ThingDef>
 
     <!-- 20x139mm APDS -->
@@ -370,6 +378,7 @@
                 <bulletDef>JAAP_20x139mmAPDSprojectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_20x139mmAPDSprojectile</projectileWhenLoaded>
     </ThingDef>
 
     <!-- 30x173mm APFSDS -->
@@ -419,6 +428,7 @@ The 30mm round would kill you and turn your insides into Jelly.
                 <bulletDef>JAAP_30x173mmAPFSDSprojectile</bulletDef>
             </li>
         </modExtensions>
+        <projectileWhenLoaded>JAAP_30x173mmAPFSDSprojectile</projectileWhenLoaded>
     </ThingDef>
 
 </Defs>
