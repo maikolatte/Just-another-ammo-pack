@@ -60,3 +60,15 @@ Those are the one I made specifically for.
 ![alt text](https://github.com/maikolatte/Just-another-ammo-pack/blob/master/Banner/40x46mm_EMP.png)
 
 ---
+### Ammo for my Vehicle Mod, Wiesel MK and MELLS
+![alt text](https://raw.githubusercontent.com/maikolatte/Just-another-ammo-pack/master/Banner/20x139mm_APDS.png)
+
+#### The MELLS Missile is used on all my vehicle mods unless stated. Wiesel, PUMA. Marder ETC
+![alt text](https://raw.githubusercontent.com/maikolatte/Just-another-ammo-pack/master/Banner/MELLS.png)
+
+---
+### Ammo for my Vehicle Mod, PUMA IFV
+![alt text](https://raw.githubusercontent.com/maikolatte/Just-another-ammo-pack/master/Banner/30x173mm_APFSDS.png)
+
+
+
